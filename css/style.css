@@ -155,6 +155,12 @@ p {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 0px 40px;
+  box-sizing: border-box;
+  max-width: 1200px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .introducao-conteudo {
@@ -168,9 +174,30 @@ p {
   line-height: 1.125;
 }
 
+.introducao h1 span{
+  color: #FFBB00;
+}
+
 .introducao p {
   margin-bottom: 20px;
   font-size: 24px;
   line-height: 1.5;
   color: #b2b2b2;
+}
+
+.introducao a{
+  display: inline-block;
+  padding: 16px 32px;
+  background: linear-gradient(#FFBF00, #F2A60C);
+  border-radius: 4px;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+  text-transform: uppercase;
+  color: #332200;
+  font-size: 18px;
+  line-height: 1.33;
+  font-weight: bold;
+}
+
+.introducao a:hover{
+  background: linear-gradient(#FFB60D, #E59317);
 }
