@@ -31,7 +31,15 @@ img {
   display: block;
 }
 
+/* Toda tag que tiver src e o arquivo com final .jpg será aplicado arredondamento*/
+img [src$=".jpg"]{
+  border-radius: 4px;
+}
+
 h1,
+h2,
+h3,
+h4,
 ul,
 p {
   margin: 0px;
