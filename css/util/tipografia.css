@@ -1,0 +1,51 @@
+/****************************
+          TIPOGRAFIA
+****************************/
+/****************************
+          VARIÁVEIS
+
+:root
+-------
+Sumário
+-------
+A pseudo-classe CSS :root se equipara à raíz de uma árvore, que por sua vez representa o documento. Aplicado ao HTML, :root representa o elemento <html>  e é identico ao seletor html, exceto que sua especificidade é mais alta.
+
+Exemplo
+Usar :root pode ser útil para declarar uma variável CSS global:
+
+:root {
+  --main-color: hotpink;
+  --pane-padding: 5px 42px;
+}
+****************************/
+
+:root {
+  /************/
+  /* Primary */
+  /************/
+
+  /*************/
+  /* Body Copy */
+  /*************/
+  --font-size: ;
+
+  /*********/
+  /* Font */
+  /*********/
+  --font-poppins: 'Poppins';
+  --font-roboto: 'Roboto';
+}
+
+.texto-grande{
+  font-size: 64px;
+  line-height: 1.125;
+  font-family: var(--font-poppins);
+  font-weight: 600;
+}
+
+.texto-medio{
+  font-size: 24px;
+  line-height: 1.5;
+  font-family: var(--font-roboto);
+  font-weight: 400;
+}

@@ -15,40 +15,8 @@
 
 /************** UTILIDADES **************/
 @import "./util/componentes.css";
+@import "./util/tipografia.css";
+@import "./util/cores.css";
 
 
-/****************************
-          VARIÁVEIS
-
-:root
--------
-Sumário
--------
-A pseudo-classe CSS :root se equipara à raíz de uma árvore, que por sua vez representa o documento. Aplicado ao HTML, :root representa o elemento <html>  e é identico ao seletor html, exceto que sua especificidade é mais alta.
-
-Exemplo
-Usar :root pode ser útil para declarar uma variável CSS global:
-
-:root {
-  --main-color: hotpink;
-  --pane-padding: 5px 42px;
-}
-****************************/
-
-:root {
-  /************/
-  /* Primary */
-  /************/
-
-  /*************/
-  /* Body Copy */
-  /*************/
-  --font-size: ;
-
-  /*********/
-  /* Font */
-  /*********/
-  --font-poppins: 'Poppins';
-  --font-roboto: 'Roboto';
-}
 
