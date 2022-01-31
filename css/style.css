@@ -33,7 +33,8 @@ Usar :root pode ser útil para declarar uma variável CSS global:
   /*********/
   /* Font */
   /*********/
-  --font-outfit: ;
+  --font-poppins: 'Poppins';
+  --font-roboto: 'Roboto';
 }
 
 /****************************
@@ -105,6 +106,8 @@ p {
   padding: 16px 0px; /* Aumentar área de contato do botão */
   font-size: 18px;
   position: relative;
+  font-family: var(--font-poppins);
+  font-weight: 400;
 }
 
 .header-menu a::after {
@@ -190,6 +193,8 @@ p {
   margin-bottom: 32px;
   font-size: 64px;
   line-height: 1.125;
+  font-family: var(--font-poppins);
+  font-weight: 600;
 }
 
 .introducao h1 span{
@@ -201,6 +206,9 @@ p {
   font-size: 24px;
   line-height: 1.5;
   color: #b2b2b2;
+  font-family: var(--font-roboto);
+  font-weight: 400;
+  
 }
 
 .introducao a{
@@ -213,7 +221,8 @@ p {
   color: #332200;
   font-size: 18px;
   line-height: 1.33;
-  font-weight: bold;
+  font-family: var(--font-poppins);
+  font-weight: 600;
 }
 
 .introducao a:hover{
