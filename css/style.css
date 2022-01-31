@@ -12,6 +12,7 @@
 
 /************** HOME **************/
 @import "./home/introducao.css";
+@import "./home/tecnologia.css";
 
 /************** UTILIDADES **************/
 @import "./util/componentes.css";
@@ -20,5 +21,7 @@
 
 /************** BICICLETAS **************/
 @import "./bicicletas/bicicletas-lista.css";
+
+
 
 
