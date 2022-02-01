@@ -9,6 +9,7 @@
 /************** GLOBAL **************/
 @import "./global/global.css";
 @import "./global/cabeçalho.css";
+@import "./global/rodape.css";
 
 /************** HOME **************/
 @import "./home/introducao.css";
