@@ -24,6 +24,8 @@
   color: var(--cor-p5);
   font: 600 1.125rem/1.35 var(--font-poppins);
   max-width: max-content;
+  border: none;
+  cursor: pointer;
 }
 
 .botao:hover{
