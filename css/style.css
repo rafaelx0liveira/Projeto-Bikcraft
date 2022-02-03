@@ -21,6 +21,7 @@
 @import "./util/componentes.css";
 @import "./util/tipografia.css";
 @import "./util/cores.css";
+@import "./util/formulario.css";
 
 /************** BICICLETAS **************/
 @import "./bicicletas/bicicletas-lista.css";
@@ -38,6 +39,9 @@
 /************** TERMOS **************/
 @import "./termos/termos.css";
 
+/************** CONTATO **************/
+@import "./contato/contato.css";
+@import "./contato/lojas.css";
 
 
 
