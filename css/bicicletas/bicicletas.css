@@ -21,6 +21,7 @@
 
 .bicicletas-imagem img {
   grid-area: 1/1;
+  border-radius: 4px;
 }
 
 .bicicletas-imagem span {
