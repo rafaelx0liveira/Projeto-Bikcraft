@@ -26,10 +26,32 @@ const parametros = new URLSearchParams(location.search);
 function ativarProduto(parametro) {
   const elemento = document.getElementById(parametro);
 
-  if(elemento)
-  {
+  if (elemento) {
     elemento.checked = true;
   }
 }
 
 parametros.forEach(ativarProduto);
+
+/*********************************
+        PRGUNTAS FREQUENTES
+**********************************/
+const perguntas = document.querySelectorAll(".perguntas button");
+
+function ativarPergunta(event) {
+  const pergunta = event.currentTarget;
+  const controle = pergunta.getAttribute("aria-controls");
+  const resposta = document.getElementById(controle);
+
+  resposta.classList.toggle("ativa");
+  const ativa = resposta.classList.contains("ativa");
+  console.log(ativa);
+  pergunta.setAttribute("aria-expanded", ativa);
+}
+
+function eventosPerguntas(pergunta) {
+  pergunta.addEventListener("click", ativarPergunta);
+  console.log(pergunta);
+}
+
+perguntas.forEach(eventosPerguntas);
