@@ -22,6 +22,7 @@
 @import "./util/tipografia.css";
 @import "./util/cores.css";
 @import "./util/formulario.css";
+@import "./util/animacao.css";
 
 /************** BICICLETAS **************/
 @import "./bicicletas/bicicletas-lista.css";
